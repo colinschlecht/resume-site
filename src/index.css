@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#topnav{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+ 
+}
+
+.location{
+  float: right;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: .8em;
+}
+
+.content.title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: -.8em;
+
+}
+.content a{
+  color: #000;
+}
+
+.project.title a{
+  font-weight: bold;
+  margin-right: .1em;
+}
+
+
+#bottomnav{
+  transition: all .2s ease-in-out;
+  height: 10px;
+  position:fixed;
+  display:flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(194, 149, 83, 0.242);
+}
+#bottomnav:hover{
+  transform: scale(1.1);
+  height: 40px;
+  position:fixed;
+  display:flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(255, 235, 205, 0.721);
+
+}
+
+.ui.raised.very.padded.text.container.segment{
+  margin-top: -10%;
+}
+
+.ui.inverted.vertical.masthead.center.aligned.segment{
+  margin-top: -40px;
+  min-height: 350px;
+}
