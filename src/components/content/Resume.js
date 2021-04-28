@@ -13,15 +13,15 @@ const Resume = () => {
         <div id="header-links">
           <p>
             <a href="https://github.com/colinschlecht">
-              <i class="github square icon "></i> GitHub{" "}
+              <i className="github square icon "></i> GitHub{" "}
             </a>{" "}
             |{" "}
             <a href="https://www.linkedin.com/in/colin-schlecht-390916a8/">
-              <i class="linkedin icon"> </i> LinkedIn{" "}
+              <i className="linkedin icon"> </i> LinkedIn{" "}
             </a>{" "}
             |{" "}
             <a href="https://colinschlecht.medium.com/">
-              <i class="medium icon"></i>
+              <i className="medium icon"></i>
               Medium{" "}
             </a>
           </p>
@@ -62,7 +62,7 @@ const Resume = () => {
           <div className="project title">
             <a href="http://www.inftgram.io/">nftgram.io</a>|
             <a href="https://github.com/colinschlecht/nftgram">
-              <i class="github square icon "></i>
+              <i className="github square icon "></i>
             </a>
           </div>
           <div className="project">
@@ -92,7 +92,7 @@ const Resume = () => {
           <div className="project title">
             <a href="https://www.brewery-project.com/">Brewery Project</a>|
             <a href="https://github.com/harrf815/brew-frontend">
-              <i class="github square icon "></i>
+              <i className="github square icon "></i>
             </a>
           </div>
           <div className="project">
@@ -121,7 +121,7 @@ const Resume = () => {
             </a>
             |
             <a href="https://github.com/colinschlecht/starwarsguesswho">
-              <i class="github square icon "></i>
+              <i className="github square icon "></i>
             </a>
           </div>
           <div className="project">
