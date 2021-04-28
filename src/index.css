@@ -47,6 +47,25 @@ code {
   margin-right: .1em;
 }
 
+.header-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+#header-links{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+#header-address{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
 
 #bottomnav{
   transition: all .2s ease-in-out;
@@ -74,6 +93,7 @@ code {
 
 .ui.raised.very.padded.text.container.segment{
   margin-top: -10%;
+  min-width: 70%;
 }
 
 .ui.inverted.vertical.masthead.center.aligned.segment{

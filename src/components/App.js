@@ -5,6 +5,9 @@ import Main from "./Main";
 import Bottom from "./nav/Bottom";
 
 function App() {
+
+  
+
   return (
     <>
       <BrowserRouter>

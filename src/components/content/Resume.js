@@ -5,10 +5,10 @@ const Resume = () => {
     <div className="content" id="resume">
       <div id="content-header">
         <div className="header-title">
-          <h2>Colin Schlecht</h2>
+          <h1>Colin Schlecht</h1>
         </div>
         <div id="header-address">
-          <p>Tacoma, Wa 98422 | 253-5836528 | schlechtcolin1@gmail.com</p>
+          <p>253-583-6528 | schlechtcolin1@gmail.com</p>
         </div>
         <div id="header-links">
           <p>
