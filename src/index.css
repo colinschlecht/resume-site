@@ -127,11 +127,34 @@ code {
   transform: translate3d(0px, 0px, 0px);
   margin-bottom: 40%;
 }
+#subHeader1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -35%;
+  min-height: 150%;
+  width: 200%;
+  position: absolute;
+  z-index: 9;
+  transform: translate3d(0px, 0px, 0px);
+  margin-bottom: 40%;
+}
 
 .header.title{
   color: aliceblue;
   position: relative;
   margin: auto;
   font-size: 6em;
+}
+.sub.header.title{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: aliceblue;
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+  font-size: 6em;
+  z-index: 12;
 }
 
