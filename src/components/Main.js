@@ -12,22 +12,24 @@ const Main = () => {
         id="main-content"
       >
         <Resume />
-        </div>
-        <SubHeader id={"subHeader1"}/>
-        <h1 className="sub header title">Resume</h1>
+      </div>
+      <SubHeader id={"subHeader1"} />
+      <h1 className="sub header title projects">Projects</h1>
       <div
         className="ui raised very padded text container segment"
         id="main-content2"
-        >
-      <Projects />
-          </div>
-      <SubHeader id={"subHeader2"}/>
+      >
+        <Projects />
+      </div>
+      <h1 className="sub header title">Contact</h1>
+
+      <SubHeader id={"subHeader2"} />
       <div
         className="ui raised very padded text container segment"
         id="main-content3"
-        >
-      <Contact />
-          </div>
+      >
+        <Contact />
+      </div>
     </>
   );
 };

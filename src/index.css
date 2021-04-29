@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,11 +9,11 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-#topnav{
+#topnav {
   display: flex;
   justify-content: center;
   position: fixed;
@@ -23,100 +23,93 @@ code {
   transition: all 2s ease-in-out;
 }
 
-
-
-.ui.secondary.menu.after{
+.ui.secondary.menu.after {
   display: flex;
   justify-content: center;
   position: fixed;
   min-width: 100%;
   background-color: rgb(255, 255, 255);
   transform: scale(1.1);
-  box-shadow: 4px 4px 8px
-
-  
+  box-shadow: 4px 4px 8px;
 }
 
-.location{
+.location {
   float: right;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
-.content.title{
+.content.title {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 2em;
-  margin-bottom: -.8em;
-
+  margin-bottom: -0.8em;
 }
-.content a{
+.content a {
   color: #000;
 }
 
-.project.title a{
+.project.title a {
   font-weight: bold;
-  margin-right: .1em;
+  margin-right: 0.1em;
 }
 
-.header-title{
+.header-title {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 1em;
 }
-#header-links{
+#header-links {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 1em;
 }
-#header-address{
+#header-address {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 1em;
 }
 
-
-#bottomnav{
-  transition: all .2s ease-in-out;
+#bottomnav {
+  transition: all 0.2s ease-in-out;
   height: 10px;
-  position:fixed;
-  display:flex;
+  position: fixed;
+  display: flex;
   justify-content: center;
   bottom: 0;
   width: 100%;
   z-index: 1000;
   background-color: rgba(194, 149, 83, 0.242);
 }
-#bottomnav:hover{
+#bottomnav:hover {
   transform: scale(1.1);
   height: 40px;
-  position:fixed;
-  display:flex;
+  position: fixed;
+  display: flex;
   justify-content: center;
   bottom: 0;
   width: 100%;
   z-index: 1000;
   background-color: rgba(255, 235, 205, 0.721);
   background: radial-gradient(circle at 50%, #fee5c0, transparent);
-
 }
 
-.ui.raised.very.padded.text.container.segment{
+.ui.raised.very.padded.text.container.segment {
   margin-top: 20%;
-  position:relative;
+  position: relative;
   min-width: 70%;
   z-index: 10;
-
 }
 
-.ui.inverted.vertical.masthead.center.aligned.segment{
-  display:flex;
+.ui.inverted.vertical.masthead.center.aligned.segment {
+  overflow: hidden;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -35%;
@@ -127,8 +120,9 @@ code {
   transform: translate3d(0px, 0px, 0px);
   margin-bottom: 40%;
 }
-#subHeader1{
-  display:flex;
+#subHeader1 {
+  overflow: hidden;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -35%;
@@ -139,14 +133,23 @@ code {
   transform: translate3d(0px, 0px, 0px);
   margin-bottom: 40%;
 }
+#subHeader2 {
+  overflow: hidden;
+  margin-top: -35%;
+  min-height: 100%;
+  min-width: 150%;
+  position: absolute;
+  z-index: 9;
+  transform: translate3d(-1109px, 0px, 0px);
+}
 
-.header.title{
+.header.title {
   color: aliceblue;
   position: relative;
   margin: auto;
   font-size: 6em;
 }
-.sub.header.title{
+.sub.header.title {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -157,4 +160,3 @@ code {
   font-size: 6em;
   z-index: 12;
 }
-
