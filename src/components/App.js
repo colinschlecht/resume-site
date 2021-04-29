@@ -13,10 +13,12 @@ function App() {
     const scrollTotal = document.scrollingElement.scrollTop;
 
     const targets = document.querySelectorAll("div.ui.inverted.vertical");
-    const dividingTitles = document.querySelectorAll("h1.sub.header.title.projects");
+    const dividingTitles = document.querySelectorAll(
+      "h1.sub.header.title.projects"
+    );
     let headerArr = Array.from(targets);
     let titleArr = Array.from(dividingTitles);
-    
+
     for (let target of headerArr) {
       switch (target.id) {
         case "masthead":
@@ -25,27 +27,30 @@ function App() {
           }px, 0px)`;
           break;
         case "subHeader1":
-          target.style.transform = `translate3d(${
-            450 - scrollTotal * 0.45
-          }px, 0px, 0px)`;
+          // console.log(0 + (scrollTotal * 0.07))
+          target.style.minHeight = `${90 + scrollTotal * 0.01}%`;
+          target.style.maxWidth = `${0 + scrollTotal * 0.07}%`;
+          if (target.style.maxWidth.split("%")[0] > 100.0001) {
+            target.style.maxWidth = `100%`
+          }
           break;
         case "subHeader2":
-          if (isBottom(main2)){ 
-            console.log(-2200 + (scrollTotal * 0.01 + 7) ** 2);
-          target.style.transform = `translate3d(${
-            -2200 + (scrollTotal * 0.01 + 5) ** 2
-          }px, 0px, 0px)`;
-          main3.style.marginTop = `${30 - (scrollTotal * 0.01 - 10)}%`;
-
-        }
+          if (isBottom(main2)) {
+            console.log(((scrollTotal * 0.001) ** 2)**2);
+            target.style.maxWidth = `${(((scrollTotal * 0.001) ** 2)**2)}%`
+            if (target.style.maxWidth.split("%")[0] > 100.0001) {
+              target.style.maxWidth = `100%`
+            }
+            main3.style.marginTop = `${30 - (scrollTotal * 0.01 - 7)}%`;
+          }
           break;
       }
     }
     if (isBottom(main)) {
-      const start = parseInt(
-        targets[1].style.transform.split("(")[1].split("px")[0]
-      );
-      targets[1].style.transform = `${start}, 0px, 0px)`;
+      // const start = parseInt(
+      // targets[1].style.transform.split("(")[1].split("px")[0]
+      // );
+      // targets[1].style.transform = `${start}, 0px, 0px)`;
       main2.style.marginTop = `${20 - (scrollTotal * 0.01 - 1)}%`;
     }
   };
