@@ -43,18 +43,3 @@ export default function Nav() {
     </div>
   );
 }
-
-{
-  /* <a
-          href="https://www.linkedin.com/in/colin-schlecht-390916a8/"
-          className="item"
-        >
-          <i className="linkedin icon"></i>
-        </a>
-        <a href="https://github.com/colinschlecht" className="item">
-          <i className="github square icon "></i>
-        </a>
-        <a href="https://colinschlecht.medium.com/" className="item">
-          <i className="medium icon "></i>
-        </a> */
-}
