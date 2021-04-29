@@ -118,7 +118,7 @@ code {
   min-height: 90%;
   width: 100%;
   position: absolute;
-  z-index: 9;
+  z-index: 6;
   transform: translate3d(0px, 0px, 0px);
   margin-bottom: 40%;
 }
@@ -131,7 +131,7 @@ code {
   min-height: 90%;
   max-width: 0%;
   position: absolute;
-  z-index: 7;
+  z-index: 6;
   /* transform: translate3d(0px, 0px, 0px); */
   margin-bottom: 40%;
 }
@@ -139,10 +139,10 @@ code {
   overflow: hidden;
   margin-top: -35%;
   min-height: 90%;
-  max-width: 0%;
+  max-width: 50%;
   position: absolute;
   right: 0;
-  z-index: 7;
+  z-index: 6;
   /* transform: translate3d(-1109px, 0px, 0px); */
 }
 

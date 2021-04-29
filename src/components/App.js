@@ -25,20 +25,20 @@ function App() {
           target.style.minHeight = `${90 + scrollTotal * 0.01}%`;
           target.style.maxWidth = `${0 + scrollTotal * 0.07}%`;
           if (target.style.maxWidth.split("%")[0] > 100.0001) {
-            target.style.maxWidth = `100%`
+            target.style.maxWidth = `100%`;
           }
           break;
         case "subHeader2":
           if (isBottom(main2)) {
-            target.style.maxWidth = `${(((scrollTotal * 0.001) ** 2)**2)}%`
+            target.style.maxWidth = `${((scrollTotal * 0.001) ** 2) ** 2}%`;
             if (target.style.maxWidth.split("%")[0] > 100.0001) {
-              target.style.maxWidth = `100%`
+              target.style.maxWidth = `100%`;
             }
             main3.style.marginTop = `${30 - (scrollTotal * 0.01 - 7)}%`;
           }
           break;
-          default:
-            return null;
+        default:
+          return null;
       }
     }
     if (isBottom(main)) {
