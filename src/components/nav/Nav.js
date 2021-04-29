@@ -28,15 +28,15 @@ export default function Nav() {
   return (
     <div className="ui secondary menu inverted" id="menu-change">
       <div className="menu">
-        <a href="/subheader1" className="item top" id="top">
+        <a href="/" className="item top" id="top">
           Resume
         </a>
         
-        <a href="/subheader2" className="item top" id="top">
+        <a href="#subHeader1" className="item top" id="top">
           Projects
         </a>
       
-        <a href="/subheader3" className="item top" id="top">
+        <a href="#subHeader2" className="item top" id="top">
           Contact
         </a>
       </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
     return (
         <div>
-            <div className="content" id="resume">
+            <div className="content" id="project">
       <div id="content-header">
         <div className="header-title">
           <h1>Colin Schlecht</h1>

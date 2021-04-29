@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   z-index: 1;
+  overflow: scroll;
 }
 
 code {
@@ -144,7 +145,7 @@ code {
 }
 
 .header.title {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   position: relative;
   margin: auto;
   font-size: 6em;
@@ -153,7 +154,7 @@ code {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   position: relative;
   margin: auto;
   margin-top: 10%;
