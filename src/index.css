@@ -131,7 +131,7 @@ code {
   min-height: 90%;
   max-width: 0%;
   position: absolute;
-  z-index: 9;
+  z-index: 7;
   /* transform: translate3d(0px, 0px, 0px); */
   margin-bottom: 40%;
 }
@@ -142,7 +142,7 @@ code {
   max-width: 0%;
   position: absolute;
   right: 0;
-  z-index: 9;
+  z-index: 7;
   /* transform: translate3d(-1109px, 0px, 0px); */
 }
 
@@ -161,5 +161,5 @@ code {
   margin: auto;
   margin-top: 10%;
   font-size: 6em;
-  z-index: 12;
+  z-index: 7;
 }
