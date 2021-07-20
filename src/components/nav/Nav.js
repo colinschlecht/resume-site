@@ -30,6 +30,13 @@ export default function Nav() {
     <div className="ui secondary menu inverted" id="menu-change">
       <div className="menu">
         <a
+          href="#about"
+          className="item top"
+          id="top"
+        >
+          About Me
+        </a>
+        <a
           href="#resume"
           className="item top"
           id="top"

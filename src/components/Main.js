@@ -19,7 +19,7 @@ const Main = () => {
       >
         <Resume />
       </div>
-      <SubHeader id={"subHeader1"} />
+      <SubHeader id={"projects"} />
       <h1 className="sub header title projects">Projects</h1>
       <div
         className="ui raised very padded text container segment"
@@ -29,7 +29,7 @@ const Main = () => {
       </div>
       <h1 className="sub header title">Contact</h1>
 
-      <SubHeader id={"subHeader2"} />
+      <SubHeader id={"contact"} />
       <div
         className="ui raised very padded text container segment"
         id="main-content3"
