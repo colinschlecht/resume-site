@@ -28,7 +28,7 @@ const Resume = () => {
         </div>
         <div className="content background">
           <div className="content title">
-            <h4>BACKGROUND</h4>
+            <h4>OVERVIEW</h4>
           </div>
           <div className="ui divider"></div>
           <div className="content body">
@@ -49,8 +49,9 @@ const Resume = () => {
           <div className="ui divider"></div>
           <div className="content body">
             <p>
-              Javascript, React, Redux, Ruby on Rails, Node/Express, SQL,
-              Microsoft Office, SAP
+              JavaScript, React, Redux, Ruby on Rails, Next, Solidity,
+              Node/Express, Postgres, SQLite, SQL, HTML, CSS, Google / Microsoft Suite,
+              SAP
             </p>
           </div>
         </div>
@@ -60,32 +61,36 @@ const Resume = () => {
           </div>
           <div className="ui divider"></div>
           <div className="project title">
-            <a href="http://www.inftgram.io/">nftgram.io</a>|
+            <a href="http://nftgram.io/">nftgram.io</a>|
             <a href="https://github.com/colinschlecht/nftgram">
               <i className="github square icon "></i>
             </a>
           </div>
           <div className="project">
             <p className="description">
-              Web application in which users can create and display NFT’s on a
-              social media/marketplace platform
+              Web application in which users can create, display, sell, and
+              purchase NFT’s (Non-Fungible Tokens) on a social media/marketplace
+              platform.
             </p>
             <ul>
               <li>
-                Enabled user authentication and authorization through
-                client-side storage of encrypted data via JSON WebTokens.
+                Leveraged the Ethereum Blockchain, Interplanetary File System
+                (IPFS) and Ruby on Rails to build a hybrid decentralized
+                back-end.
+              </li>
+              <li>
+                Integrated the MetaMask Cryptocurrency wallet for processing
+                Ethereum transactions with ease and streamline the user
+                authentication and authorization processes.
+              </li>
+              <li>
+                Explored advanced database concepts such as polymorphism and
+                self-referencing models to efficiently enable complex user
+                interaction.
               </li>
               <li>
                 Maintained global and local state through redux and react hooks
                 to optimize dataflow client-side.
-              </li>
-              <li>
-                Utilized Ruby On Rails backend for server side storage as well
-                as client side API to integrate decentralized storage.
-              </li>
-              <li>
-                Enabled complex user interaction through polymorphic database
-                modeling for “likes” and “comments.”
               </li>
             </ul>
           </div>
@@ -98,16 +103,16 @@ const Resume = () => {
           <div className="project">
             <p className="description">
               A brewery locator web service, where users can comment and review
-              local breweries by location
+              local breweries by location.
             </p>
             <ul>
               <li>
                 Enabled user authentication and authorization through
-                client-side storage of encrypted data via JSON WebTokens.
+                client-side storage of encrypted data via JSON Web Tokens.
               </li>
               <li>
                 Utilized a React client and Ruby on Rails server to efficiently
-                route the user to curated content based on location.
+                route the user to content based on location.
               </li>
               <li>
                 Integrated Geo-location technology mapping the location of all
@@ -132,7 +137,7 @@ const Resume = () => {
             </p>
             <ul>
               <li>
-                Merged Vanilla Javascript, HTML and CSS in the front end to
+                Merged Vanilla JavaScript, HTML and CSS in the front end to
                 build a responsive single page application.
               </li>
               <li>
@@ -159,7 +164,9 @@ const Resume = () => {
             <h4>Recreational Equipment Incorporated, REI</h4>
           </div>
           <div className="job title">
-            <h4>Customer Support <span className="location">Sumner, Wa | 10/2016 - 11/2020</span></h4>
+            <h4>
+              Customer Support <span className="location">Sumner, Wa</span>
+            </h4>
           </div>
           <div className="job description">
             <ul>
@@ -175,7 +182,10 @@ const Resume = () => {
               </li>
             </ul>
             <div className="job title">
-              <h4>Vendor Operations Analyst<span className="location">Kent, Wa | 02/2017 - 06/2017, 05/2018 - 10/2018</span></h4>
+              <h4>
+                Vendor Operations Analyst
+                <span className="location">Kent, Wa</span>
+              </h4>
             </div>
             <div className="job description">
               <ul>
@@ -199,15 +209,19 @@ const Resume = () => {
           </div>
           <div className="ui divider"></div>
           <div className="school">
-            <h4>Flatiron School<span className="location">Seattle, Wa | 1/2021 - 04/2021</span></h4>
+            <h4>Flatiron School</h4>
           </div>
           <div className="degree">
             <h5>
-              Full Stack Web Development, Ruby on Rails and JavaScript program</h5>
+              Full Stack Web Development, Ruby on Rails and JavaScript program
+            </h5>
           </div>
           <br></br>
           <div className="school">
-            <h4>Central Washington University<span className="location">Ellensburg, Wa | Graduated: 06/2010</span></h4>
+            <h4>
+              Central Washington University
+              <span className="location">Ellensburg, Wa</span>
+            </h4>
             <h5>BSBA Business Administration / Supply Chain Management</h5>
           </div>
         </div>

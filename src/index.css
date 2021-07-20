@@ -163,3 +163,13 @@ code {
   font-size: 6em;
   z-index: 7;
 }
+
+#profile-pic{
+  margin: auto;
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  background-color: rgb(58 33 33 / 12%);
+  border-radius: 100%;
+  padding: 0.5em;
+}
