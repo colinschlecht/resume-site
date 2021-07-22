@@ -21,12 +21,12 @@ const Main = () => {
       </div>
       <SubHeader id={"projects"} />
       <h1 className="sub header title projects">Projects</h1>
-      <div
+      {/* <div
         className="ui raised very padded text container segment"
         id="main-content2"
-      >
+      > */}
         <Projects />
-      </div>
+      {/* </div> */}
       <h1 className="sub header title">Contact</h1>
 
       <SubHeader id={"contact"} />

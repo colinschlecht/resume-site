@@ -50,8 +50,8 @@ const Resume = () => {
           <div className="content body">
             <p>
               JavaScript, React, Redux, Ruby on Rails, Next, Solidity,
-              Node/Express, Postgres, SQLite, SQL, HTML, CSS, Google / Microsoft Suite,
-              SAP
+              Node/Express, Postgres, SQLite, SQL, HTML, CSS, Google / Microsoft
+              Suite, SAP
             </p>
           </div>
         </div>
@@ -102,8 +102,8 @@ const Resume = () => {
           </div>
           <div className="project">
             <p className="description">
-              A brewery locator web service, where users can comment and review
-              local breweries by location.
+              A brewery locator web service, where users can write/read reviews
+              for breweries by location.
             </p>
             <ul>
               <li>
@@ -209,21 +209,21 @@ const Resume = () => {
           </div>
           <div className="ui divider"></div>
           <div className="school">
-            <h4>Flatiron School</h4>
+            <h4>
+              Flatiron School <span className="location">Seattle, Wa</span>
+            </h4>
           </div>
-          <div className="degree">
-            <h5>
-              Full Stack Web Development, Ruby on Rails and JavaScript program
-            </h5>
-          </div>
+          <p>
+            Full Stack Web Development, Ruby on Rails and JavaScript program
+          </p>
           <br></br>
           <div className="school">
             <h4>
               Central Washington University
               <span className="location">Ellensburg, Wa</span>
             </h4>
-            <h5>BSBA Business Administration / Supply Chain Management</h5>
           </div>
+          <p>BSBA Business Administration / Supply Chain Management</p>
         </div>
       </div>
     </div>
