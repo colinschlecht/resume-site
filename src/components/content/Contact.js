@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button } from "semantic-ui-react";
+import { Form, Button, Message } from "semantic-ui-react";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -45,6 +45,11 @@ const Contact = () => {
         <h1 id="contact-title-test">Contact</h1>
 
         <div className="contact-form form-container">
+          <Message>
+            Thank you for your interest in contacting me. This is a placeholder
+            form while I work on getting a mail service set up. For the
+            meantime, please manually email me at: schlechtcolin1@gmail.com
+          </Message>
           <Form>
             <Form.Input
               fluid
