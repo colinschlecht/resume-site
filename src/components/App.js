@@ -3,6 +3,7 @@ import React from "react";
 import Nav from "./nav/Nav";
 import Main from "./Main";
 import Bottom from "./nav/Bottom";
+import Footer from "./content/Footer";
 
 function App() {
   document.onscroll = () => {
@@ -60,6 +61,7 @@ function App() {
                 <Nav />
               </div>
               <Main />
+              <Footer />
               <div id="bottomnav">
                 <Bottom />
               </div>

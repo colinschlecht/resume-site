@@ -175,7 +175,7 @@ const Resume = () => {
                 Customer Support <span className="location">Sumner, Wa</span>
               </h4>
             </div>
-            <div className="job description">
+            <div className="job-description">
               <ul>
                 <li>
                   Utilized internal warehouse and enterprise software to provide
@@ -195,7 +195,7 @@ const Resume = () => {
                   <span className="location">Kent, Wa</span>
                 </h4>
               </div>
-              <div className="job description">
+              <div className="job-description">
                 <ul>
                   <li>
                     Collaborated alongside various supply chain and

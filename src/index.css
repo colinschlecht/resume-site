@@ -110,13 +110,13 @@ code {
   padding: 0.5em;
 }
 
-.description{
+.description {
   display: flex;
   align-content: center;
   justify-content: center;
 }
 
-.about-text{
+.about-text {
   text-align: center;
   max-width: 75ch;
 }
@@ -273,6 +273,11 @@ code {
   display: flex;
   justify-content: center;
   margin-bottom: 1em;
+}
+
+.job-description {
+  display: flex;
+  flex-direction: column;
 }
 
 /*!Projects Section*/
@@ -595,7 +600,7 @@ ul.proj-bar {
   width: 100%;
   text-align: center;
   top: -2em;
-  left: -.4em;
+  left: -0.4em;
 }
 #resume-title-test {
   color: #6c6f6f;
@@ -604,7 +609,7 @@ ul.proj-bar {
   width: 100%;
   text-align: center;
   top: -2em;
-  left: -.4em;
+  left: -0.4em;
 }
 #about-title-test {
   color: #ffffff;
@@ -613,5 +618,38 @@ ul.proj-bar {
   width: 100%;
   text-align: center;
   top: -2em;
-  left: -.3em;
+  left: -0.3em;
+}
+
+.contact-input{
+  caret-color: black;
+}
+#form-input-message{
+  height: 30vh;
+}
+
+/*!Footer Section*/
+/*Footer Section*/
+/*!Footer Section*/
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer-content {
+  color: #6c6f6f;
+  text-align: center;
+  margin: auto;
+}
+.footer-address {
+  color: #6c6f6f;
+}
+.footer-links a {
+  color: #6c6f6f;
+}
+.footer-links a:hover {
+  color: #343535;
 }
