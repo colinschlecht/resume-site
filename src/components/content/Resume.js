@@ -7,6 +7,8 @@ const Resume = () => {
       className="ui raised very padded text container segment"
       id="main-content2"
     >
+              <h1 id="resume-title-test">Resume</h1>
+
       <div className="content" id="resume">
         <div id="content-header">
           <div className="header-title">

@@ -33,9 +33,12 @@ const Projects = () => {
 
   return (
     <>
+    
       <div id="main-content3" className="main-proj-container  proj-main">
+      <h1 id="projects-title-test">Projects</h1>
         <span className="dummydiv" >
         </span>
+        
           <ul className="proj-bar proj-list">
             <a
               href="/NFTgram/show"
@@ -68,6 +71,7 @@ const Projects = () => {
               </li>
             </a>
           </ul>
+          
           <div className="proj-holder">
             <div className="inner-proj-holder">
               {nftGram && <NFTgram />}

@@ -7,7 +7,6 @@ const Header = () => {
       id="masthead"
     >
       <h1 className="header title" id="about">
-        About Me
       </h1>
     </div>
   );

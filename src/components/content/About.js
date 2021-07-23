@@ -7,6 +7,8 @@ const About = () => {
         className="ui raised very padded text container segment"
         id="main-content"
       >
+                <h1 id="about-title-test">About</h1>
+
         <div className="content contact" id="about-me">
           <div id="content-header">
             <div className="header-title">
