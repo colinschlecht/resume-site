@@ -2,6 +2,7 @@ import React from "react";
 
 const Resume = () => {
   return (
+    <>
     <div
       className="ui raised very padded text container segment"
       id="main-content2"
@@ -233,6 +234,7 @@ const Resume = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default Resume;
