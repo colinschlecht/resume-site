@@ -39,7 +39,7 @@ const About = () => {
               </p>
             </div>
             <div className="description">
-              <p>
+              <p className="about-text">
                 Hello there! I'm Colin Schlecht, a passionate problem solver,
                 learner, and developer from the Pacific Northwest. I may be
                 early in my career as a software engineer but I have a life-long
