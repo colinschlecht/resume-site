@@ -31,7 +31,6 @@ code {
 .after #top.item.top:hover {
   color: gray;
   transition: all 0.2s ease-in-out;
-  border-bottom: 198, 186, 172, 0.529 3px solid;
   background: radial-gradient(#d2cecab5, hsla(0, 0%, 100%, 0));
 }
 
