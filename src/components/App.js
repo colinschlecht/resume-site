@@ -1,7 +1,6 @@
 import { BrowserRouter, Switch } from "react-router-dom";
 import React from "react";
 import Nav from "./nav/Nav";
-import Header from "./Header";
 import Main from "./Main";
 import Bottom from "./nav/Bottom";
 
@@ -10,6 +9,7 @@ function App() {
     const main = document.getElementById("main-content");
     const main2 = document.getElementById("main-content2");
     const main3 = document.getElementById("main-content3");
+    
     const scrollTotal = document.scrollingElement.scrollTop;
 
     const targets = document.querySelectorAll("div.ui.inverted.vertical");
@@ -21,20 +21,20 @@ function App() {
             scrollTotal * 0.45
           }px, 0px)`;
           break;
-        case "subHeader1":
+        case "sub-resume":
           target.style.minHeight = `${90 + scrollTotal * 0.01}%`;
           target.style.maxWidth = `${0 + scrollTotal * 0.07}%`;
           if (target.style.maxWidth.split("%")[0] > 100.0001) {
             target.style.maxWidth = `100%`;
           }
           break;
-        case "subHeader2":
+        case "sub-projects":
           if (isBottom(main2)) {
             target.style.maxWidth = `${((scrollTotal * 0.001) ** 2) ** 2}%`;
             if (target.style.maxWidth.split("%")[0] > 100.0001) {
               target.style.maxWidth = `100%`;
             }
-            main3.style.marginTop = `${30 - (scrollTotal * 0.01 - 7)}%`;
+            main3.style.marginTop = `${30 - (scrollTotal * 0.01 - 30)}%`;
           }
           break;
         default:
@@ -59,7 +59,6 @@ function App() {
               <div id="topnav">
                 <Nav />
               </div>
-              <Header />
               <Main />
               <div id="bottomnav">
                 <Bottom />
