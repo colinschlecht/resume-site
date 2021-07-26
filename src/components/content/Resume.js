@@ -68,13 +68,13 @@ const Resume = () => {
             </div>
             <div className="ui divider"></div>
             <div className="project title">
-              <a href="http://nftgram.io/">nftgram.io</a>|
+              <a href="https://www.nftgram.io/">nftgram.io</a>|
               <a href="https://github.com/colinschlecht/nftgram">
                 <i className="github square icon "></i>
               </a>
             </div>
             <div className="project">
-              <p className="description">
+              <p className="resume-description">
                 Web application in which users can create, display, sell, and
                 purchase NFT’s (Non-Fungible Tokens) on a social
                 media/marketplace platform.
@@ -108,7 +108,7 @@ const Resume = () => {
               </a>
             </div>
             <div className="project">
-              <p className="description">
+              <p className="resume-description">
                 A brewery locator web service, where users can write/read
                 reviews for breweries by location.
               </p>
@@ -137,7 +137,7 @@ const Resume = () => {
               </a>
             </div>
             <div className="project">
-              <p className="description">
+              <p className="resume-description">
                 Guessing game built on a single page web application where a
                 user attempts to guess the name of a character through site
                 interaction and deductive reasoning.

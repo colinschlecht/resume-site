@@ -12,15 +12,14 @@ const Main = () => {
       <Header />
       <About />
       <SubHeader id={"resume"} />
-      <h1 className="body-title" id="resume-body-title">
-        {" "}
-      </h1>
+      <span className="body-title" id="resume-body-title">
+      </span>
       <Resume />
       <SubHeader id={"projects"} />
-      <h1 className="body-title" id="projects-body-title"></h1>
+      <span className="body-title" id="projects-body-title"></span>
       <Projects />
       <SubHeader id={"contact"} />
-      <h1 className="body-title" id="contact-body-title"></h1>
+      <span className="body-title" id="contact-body-title"></span>
       <Contact />
     </>
   );
