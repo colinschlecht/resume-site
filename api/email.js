@@ -5,14 +5,14 @@ export default function sendEmail(req, res) {
 
 	const smtpTransport = nodemailer.createTransport({
 		host: "smtp.sendgrid.net",
-		port: 587,
+		port: 465,
 		auth: {
-			user: apikey,
+			user: "apikey",
 			pass: process.env.API_KEY,
 		},
 	});
 	const mailOptions = {
-		from: data.email,
+		from: "*@colinschlecht.info",
 		to: "schlechtcolin1@gmail.com",
 		subject: "Email from personal site",
 		html: `<p>Name: ${data.name}</p>
@@ -22,8 +22,10 @@ export default function sendEmail(req, res) {
 
 	return smtpTransport.sendMail(mailOptions, (error, response) => {
 		if (error) {
+			console.log(error);
 			res.send(error);
 		} else {
+			console.log(response);
 			res.send("Success");
 		}
 		smtpTransport.close();
