@@ -4,11 +4,11 @@ export default function sendEmail(req, res) {
 	const data = req.body;
 
 	const smtpTransport = nodemailer.createTransport({
-		host: "smtp.mandrillapp.com",
-		port: 587,
+		host: "smtp.sendgrid.net",
+		port: 465,
 		auth: {
-			user: process.env.MC_USERNAME,
-			pass: process.env.MC_PASSWORD,
+			user: apikey,
+			pass: process.env.API_KEY,
 		},
 	});
 	const mailOptions = {
