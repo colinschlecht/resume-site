@@ -32,8 +32,7 @@ const Contact = () => {
 		} else {
 			axios
 				.post("https://www.colinschlecht.info/api/email", data)
-				.then((res) => {
-					console.log(res);
+				.then(() => {
 					setName("");
 					setEmailAddress("");
 					setMsg("");

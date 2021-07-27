@@ -1,7 +1,4 @@
 import nodemailer from "nodemailer";
-// const cors = require("micro-cors")();
-// const handler = (req, res) => send(res, 200, "ok!");
-// module.exports = cors(handler);
 
 export default function sendEmail(req, res) {
 	const data = req.body;
@@ -25,10 +22,8 @@ export default function sendEmail(req, res) {
 
 	return smtpTransport.sendMail(mailOptions, (error, response) => {
 		if (error) {
-			// console.log(error);
 			res.send(error);
 		} else {
-			// console.log("success");
 			res.send("Success");
 		}
 		smtpTransport.close();
