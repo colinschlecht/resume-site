@@ -5,7 +5,7 @@ export default function sendEmail(req, res) {
 
 	const smtpTransport = nodemailer.createTransport({
 		host: "smtp.mailtrap.io",
-		port: 465,
+		port: 2525,
 		auth: {
 			user: process.env.MT_USERNAME,
 			pass: process.env.MT_PASSWORD,
