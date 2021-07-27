@@ -1,11 +1,12 @@
-const nodeMailer = require("nodemailer");
 
-
-export default function hello(req, res) {
-    res.statusCode = 200;
-    res.json({ message: 'It works' });
+  
+  module.exports = (req, res) => {
+    try {
+      res.send("hi")
+    } catch (err){
+      res.send(err)
+    }
   }
-
 
 
 // app.post("/email", (req, res) => {
