@@ -1,7 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const nodeMailer = require("nodemailer");
-const cors = require("cors");
 
 const app = express();
 
@@ -10,7 +9,7 @@ const port = 4444;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(cors());
+
 
 const cors = require('micro-cors')()
 const handler = (req, res) => send(res, 200, 'ok!')

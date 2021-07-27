@@ -1,13 +1,8 @@
 
-  
-  module.exports = (req, res) => {
-    try {
-      res.send("hi")
-    } catch (err){
-      res.send(err)
-    }
+  export default function hello(req, res) {
+    res.statusCode = 200;
+    res.json({ message: 'It works' });
   }
-
 
 // app.post("/email", (req, res) => {
 // 	const data = req.body;
