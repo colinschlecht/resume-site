@@ -5,7 +5,7 @@ export default function sendEmail(req, res) {
 
 	const smtpTransport = nodemailer.createTransport({
 		host: "smtp.sendgrid.net",
-		port: 465,
+		port: 587,
 		auth: {
 			user: apikey,
 			pass: process.env.API_KEY,
