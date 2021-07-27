@@ -31,7 +31,7 @@ const Contact = () => {
 			setEmailError(true);
 		} else {
 			axios
-				.post("https://www.colinschlecht.info/api/email", data)
+				.post("https://colinschlecht.info/api/email", data)
 				.then(() => {
 					setName("");
 					setEmailAddress("");
