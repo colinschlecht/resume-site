@@ -39,7 +39,8 @@ const Contact = () => {
 					setMsg("");
 					setLoading(false);
 				})
-				.catch(() => {
+				.catch( (res) => {
+          console.log(res)
 					console.log("Message not sent");
           setSendError(true)
 					setLoading(false);
