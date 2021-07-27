@@ -4,6 +4,7 @@ export default function sendEmail(req, res) {
 	const data = req.body;
 
 	const smtpTransport = nodemailer.createTransport({
+		host: "smtp.mailtrap.io",
 		service: "Gmail",
 		port: 465,
 		auth: {
