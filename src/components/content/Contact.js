@@ -21,32 +21,30 @@ const Contact = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		setLoading(true);
-    setSendError(false)
-		// let data = {
-		// 	name: name,
-		// 	email: emailAddress,
-		// 	message: msg,
-		// };
+		setSendError(false);
+		let data = {
+			name: name,
+			email: emailAddress,
+			message: msg,
+		};
 		if (!validateEmail(emailAddress)) {
 			setEmailError(true);
 		} else {
 			axios
-        .get("https://colinschlecht.info/email-server/api/email")
-        .then(res => console.log(res))
-				// .post("https://colinschlecht.info/email-server/api/email", data)
-				// .then((res) => {
-				// 	console.log(res.data);
-				// 	setName("");
-				// 	setEmailAddress("");
-				// 	setMsg("");
-				// 	setLoading(false);
-				// })
-				// .catch( (res) => {
-        //   console.log(res)
-				// 	console.log("Message not sent");
-        //   setSendError(true)
-				// 	setLoading(false);
-				// });
+				.post("http://localhost:3000/api/email", data)
+				.then((res) => {
+					console.log(res);
+					setName("");
+					setEmailAddress("");
+					setMsg("");
+					setLoading(false);
+				})
+				.catch((res) => {
+					console.log(res);
+					console.log("Message not sent");
+					setSendError(true);
+					setLoading(false);
+				});
 		}
 	};
 	return (
