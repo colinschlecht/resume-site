@@ -5,11 +5,10 @@ export default function sendEmail(req, res) {
 
 	const smtpTransport = nodemailer.createTransport({
 		host: "smtp.mailtrap.io",
-		service: "Gmail",
 		port: 465,
 		auth: {
-			user: "schlechtcolin1@gmail.com",
-			pass: process.env.PASSWORD,
+			user: process.env.MT_USERNAME,
+			pass: process.env.MT_PASSWORD,
 		},
 	});
 	const mailOptions = {
