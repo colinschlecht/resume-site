@@ -19,7 +19,8 @@ const About = () => {
                 alt="colin schlecht"
                 id="profile-pic"
                 className="avatar"
-                src="https://ipfs.io/ipfs/bafybeigjeq2nv72erijbt5kcm6gkk3xicm7cyfxepgt4hnbywvficya2nq"
+                src="https://colinschlecht.s3.amazonaws.com/colin-profile.png"
+                // src="https://ipfs.io/ipfs/bafybeigjeq2nv72erijbt5kcm6gkk3xicm7cyfxepgt4hnbywvficya2nq"
               ></img>
             </div>
             <div id="header-links">
